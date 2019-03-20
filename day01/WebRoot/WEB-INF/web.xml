@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  
+  
+  
+  <servlet>
+    <servlet-name>AServlet</servlet-name>
+    <servlet-class>com.asule.servlet.AServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BServlet</servlet-name>
+    <servlet-class>com.asule.servlet.BServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>CServlet</servlet-name>
+    <servlet-class>com.asule.servlet.CServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DServlet</servlet-name>
+    <servlet-class>com.asule.servlet.DServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>EServlet</servlet-name>
+    <servlet-class>com.asule.servlet.EServlet</servlet-class>
+  </servlet>
+     <servlet>
+    <servlet-name>FServlet</servlet-name>
+    <servlet-class>com.asule.servlet.FServlet</servlet-class>
+  </servlet>  	
+  <servlet>
+    <servlet-name>GServlet</servlet-name>
+    <servlet-class>com.asule.servlet.GServlet</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>HServlet</servlet-name>
+    <servlet-class>com.asule.servlet.HServlet</servlet-class>
+  </servlet>  	
+    <servlet>
+    <servlet-name>JServlet</servlet-name>
+    <servlet-class>com.asule.servlet.JServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ASessionServlet</servlet-name>
+    <servlet-class>com.asule.session.ASessionServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>BSessionServlet</servlet-name>
+    <servlet-class>com.asule.session.BSessionServlet</servlet-class>
+  </servlet>
+ 
+	  
+  
+ 
+  <servlet-mapping>
+    <servlet-name>AServlet</servlet-name>
+    <url-pattern>/AServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BServlet</servlet-name>
+    <url-pattern>/BServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DServlet</servlet-name>
+    <url-pattern>/DServlet</url-pattern>
+  </servlet-mapping> 
+   <servlet-mapping>
+    <servlet-name>EServlet</servlet-name>
+    <url-pattern>/EServlet</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>FServlet</servlet-name>
+    <url-pattern>/FServlet</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>GServlet</servlet-name>
+    <url-pattern>/GServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HServlet</servlet-name>
+    <url-pattern>/HServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>JServlet</servlet-name>
+    <url-pattern>/JServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ASessionServlet</servlet-name>
+    <url-pattern>/ASessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BSessionServlet</servlet-name>
+    <url-pattern>/BSessionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
