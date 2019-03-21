@@ -42,8 +42,4 @@ session的url重写：
 	该方法的作用是，会判断cookie中是否有sessionId，(也可以认为会判断是否支持cookie)，
 	如果没有sessionId，会在URL后添加sessionId。
 	而如果支持cookie，且带有sessionId，则URL后不会添加sessionId。
-	
-	
-	
-
 */
